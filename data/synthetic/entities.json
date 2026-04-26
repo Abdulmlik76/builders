@@ -1,0 +1,303 @@
+[
+  {
+    "id": "dates_tamr",
+    "name_ar": "تمر",
+    "name_en": "dates",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 220,
+      "growth_pct_year": 3,
+      "volatility": 0.15,
+      "seasonal_event": "ramadan",
+      "seasonal_calendar": "hijri",
+      "seasonal_lift": 4.5,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "qamar_al_deen",
+    "name_ar": "قمر الدين",
+    "name_en": "qamar al-deen",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 60,
+      "growth_pct_year": 2,
+      "volatility": 0.2,
+      "seasonal_event": "ramadan",
+      "seasonal_calendar": "hijri",
+      "seasonal_lift": 8.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "eid_abaya",
+    "name_ar": "عبايات العيد",
+    "name_en": "eid abaya",
+    "category": "fashion",
+    "trend_profile": {
+      "baseline": 110,
+      "growth_pct_year": 6,
+      "volatility": 0.18,
+      "seasonal_event": "ramadan_late",
+      "seasonal_calendar": "hijri",
+      "seasonal_lift": 4.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "ihram",
+    "name_ar": "إحرام",
+    "name_en": "ihram garments",
+    "category": "fashion",
+    "trend_profile": {
+      "baseline": 35,
+      "growth_pct_year": 1,
+      "volatility": 0.2,
+      "seasonal_event": "hajj",
+      "seasonal_calendar": "hijri",
+      "seasonal_lift": 6.5,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "ksa_flag_merch",
+    "name_ar": "علم السعودية",
+    "name_en": "saudi flag merch",
+    "category": "merch",
+    "trend_profile": {
+      "baseline": 45,
+      "growth_pct_year": 4,
+      "volatility": 0.15,
+      "seasonal_event": "national_day",
+      "seasonal_calendar": "gregorian",
+      "seasonal_lift": 7.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "founding_day_thobe",
+    "name_ar": "ثوب التأسيس",
+    "name_en": "founding day thobe",
+    "category": "fashion",
+    "trend_profile": {
+      "baseline": 25,
+      "growth_pct_year": 12,
+      "volatility": 0.2,
+      "seasonal_event": "founding_day",
+      "seasonal_calendar": "gregorian",
+      "seasonal_lift": 6.5,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "riyadh_season_tickets",
+    "name_ar": "موسم الرياض",
+    "name_en": "riyadh season",
+    "category": "entertainment",
+    "trend_profile": {
+      "baseline": 180,
+      "growth_pct_year": 10,
+      "volatility": 0.18,
+      "seasonal_event": "riyadh_season",
+      "seasonal_calendar": "gregorian",
+      "seasonal_lift": 2.5,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "padel",
+    "name_ar": "بادل",
+    "name_en": "padel sports",
+    "category": "sports",
+    "trend_profile": {
+      "baseline": 90,
+      "growth_pct_year": 80,
+      "volatility": 0.18,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "ev_cars",
+    "name_ar": "سيارات كهربائية",
+    "name_en": "electric cars",
+    "category": "automotive",
+    "trend_profile": {
+      "baseline": 70,
+      "growth_pct_year": 55,
+      "volatility": 0.2,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "healthy_meal_delivery",
+    "name_ar": "وجبات صحية",
+    "name_en": "healthy meal delivery",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 160,
+      "growth_pct_year": 35,
+      "volatility": 0.15,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "matcha",
+    "name_ar": "ماتشا",
+    "name_en": "matcha",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 25,
+      "growth_pct_year": 120,
+      "volatility": 0.25,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "home_workout",
+    "name_ar": "تمارين بيتية",
+    "name_en": "home workout",
+    "category": "fitness",
+    "trend_profile": {
+      "baseline": 80,
+      "growth_pct_year": 25,
+      "volatility": 0.2,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "shisha_cafe",
+    "name_ar": "كافيهات شيشة",
+    "name_en": "shisha cafes",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 220,
+      "growth_pct_year": -15,
+      "volatility": 0.15,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "cafe_nakhla",
+    "name_ar": "كافيه نخلة",
+    "name_en": "cafe nakhla",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 18,
+      "growth_pct_year": 5,
+      "volatility": 0.22,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": {
+        "date": "2026-04-10",
+        "peak_multiplier": 28,
+        "decay_days": 12
+      },
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "selah_dance",
+    "name_ar": "رقصة سيلة",
+    "name_en": "selah dance",
+    "category": "entertainment",
+    "trend_profile": {
+      "baseline": 12,
+      "growth_pct_year": 0,
+      "volatility": 0.3,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": {
+        "date": "2026-03-05",
+        "peak_multiplier": 45,
+        "decay_days": 9
+      },
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "milk",
+    "name_ar": "حليب",
+    "name_en": "milk",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 480,
+      "growth_pct_year": 1,
+      "volatility": 0.1,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "rice",
+    "name_ar": "أرز",
+    "name_en": "rice",
+    "category": "food",
+    "trend_profile": {
+      "baseline": 540,
+      "growth_pct_year": 0,
+      "volatility": 0.1,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": null
+    }
+  },
+  {
+    "id": "spam_product_x",
+    "name_ar": "منتج وهمي",
+    "name_en": "spam product",
+    "category": "noise",
+    "trend_profile": {
+      "baseline": 40,
+      "growth_pct_year": 0,
+      "volatility": 0.2,
+      "seasonal_event": null,
+      "seasonal_calendar": "none",
+      "seasonal_lift": 0.0,
+      "viral_event": null,
+      "bot_spike": {
+        "date": "2026-04-01",
+        "platform": "x",
+        "peak_multiplier": 35,
+        "decay_days": 6
+      }
+    }
+  }
+]

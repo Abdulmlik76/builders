@@ -127,6 +127,20 @@ def render() -> None:
     lines = md_text.splitlines()
     if lines and lines[0].startswith("# "):
         lines = lines[1:]
+
+    # Stakeholder PDF: keep only sections 1-5. Section 6 onward is technical
+    # (architecture implications) and lives in the full STRATEGY.md alongside
+    # ARCHITECTURE.md for the engineering audience.
+    cut_idx = next(
+        (i for i, line in enumerate(lines) if line.startswith("## 6.")),
+        None,
+    )
+    if cut_idx is not None:
+        # Drop a trailing `---` rule if present immediately before section 6
+        while cut_idx > 0 and lines[cut_idx - 1].strip() in ("", "---"):
+            cut_idx -= 1
+        lines = lines[:cut_idx]
+
     md_text = "\n".join(lines)
 
     html_body = markdown.markdown(
